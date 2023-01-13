@@ -1,0 +1,178 @@
+.logo{
+	padding: 2px;
+	margin: 0px;
+	float: left;
+	display: inline-block;
+	background-color: skyblue;
+}
+
+.header h1{
+	background-color: skyblue;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 8px;
+
+
+}
+.nav{
+	background-color: lightgreen;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	float: right;
+
+}
+.nav li{
+	list-style: none;
+	float: right;
+	padding: 2vh;
+	display: inline-block;
+
+}
+.nav a:hover{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	background-color: lightpink;
+}
+.nav ul li a{
+	padding: 0px 59px;
+	margin: 0vh;
+}
+.lside{
+	background-color: gray;
+	margin: 1vh;
+	float: left;
+	padding: 8px;
+	text-align: left;
+	height: 605px;
+	animation-play-state: running;
+}
+.Rside{
+	background-color: gray;
+	margin: 1vh;
+	float: right;
+	padding: 8px;
+	text-align: left;
+	height: 605px;
+	width: 1114px;
+}
+.Rside img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.Rside h4{
+	text-align: center;
+}
+.Rside h3{
+	text-align: center;
+}
+.Rside1 img{
+	display: block;
+	float: left;
+}
+.Rside1 h4{
+	text-align: left;
+}
+.Rside1 h3{
+	text-align: left;
+}
+.Rside2 img{
+	display: block;
+    margin-right: auto;
+    float: right;
+}
+.Rside2 h4{
+	text-align: right;
+}
+.Rside2 h3{
+	text-align: right;
+}
+.Rside3 img{
+	display: block;
+	margin-right: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+	/* Styling the area of the slides */
+#slideshow{
+  overflow: hidden;
+  height: 700px;
+  width: 1100px;
+  margin: 0 auto;
+
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+ 
+/* Add animation to the slides */
+.slide-wrapper {
+   
+/* Calculate the total width on the
+  basis of number of slides */
+  width: calc(728px * 5);
+ 
+/* Specify the animation with the
+  duration and speed */
+  animation: slide 10s ease infinite;
+}
+ 
+/* Set the background color
+of each of the slides */
+.slide:nth-child(1) {
+  background: none;
+}
+ 
+.slide:nth-child(2) {
+  background: none;
+}
+ 
+.slide:nth-child(3) {
+  background: none;
+}
+ 
+.slide:nth-child(4) {
+  background: none;
+}
+
+.slide:nth-child(5) {
+  background: none;
+}
+ 
+/* Define the animation
+for the slideshow */
+@keyframes slide {
+   
+/* Calculate the margin-left for
+  each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+  100% {
+  	margin-left: calc(-728px * 4);
+}
+
+
+
+
+
