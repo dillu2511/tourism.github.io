@@ -1,7 +1,7 @@
 .logo{
 	padding: 2px;
 	margin: 0px;
-	float: left;
+	float: none;
 	display: inline-block;
 	background-color: skyblue;
 }
@@ -19,12 +19,12 @@
 	padding: 0;
 	margin: 0;
 	display: inline-block;
-	float: right;
+	float: none;
 
 }
 .nav li{
 	list-style: none;
-	float: right;
+	float: none;
 	padding: 2vh;
 	display: inline-block;
 
@@ -149,7 +149,8 @@ of each of the slides */
  
 /* Define the animation
 for the slideshow */
-@keyframes slide {
+@keyframes slide{
+
    
 /* Calculate the margin-left for
   each of the slides */
@@ -170,9 +171,4 @@ for the slideshow */
   }
   100% {
   	margin-left: calc(-728px * 4);
-}
-
-
-
-
-
+  }
